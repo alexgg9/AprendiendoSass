@@ -1,0 +1,32 @@
+$background-color: #A0DEFF;
+$radioImg: 150px;
+$backgroundtitle: #E4FF00;
+$colorletras:#6B797E;
+$centrado:center;
+
+
+body {
+
+    background-color: $background-color;
+    margin: 0;
+    h1{
+        font: $colorletras;
+        text-align: $centrado;
+    }
+    $anchoContainer: 75%;
+    .contenedor{
+        width: $anchoContainer;
+        font: $colorletras;
+    }
+}
+
+img {
+
+    width:300px;
+    height:300px;
+    border-radius: $radioImg;
+}
+
+h1{
+    background-color: #E4FF00;
+}
